@@ -21,4 +21,10 @@ public class CribleErathosthene {
 		}
 		return tab;
 	}
+	
+	public static boolean testPrimalite(int n) {
+		return CribleErathosthene.cribleSimple(n)[n];
+	}
+	
+	// De larges possibilités d'améliorations
 }
