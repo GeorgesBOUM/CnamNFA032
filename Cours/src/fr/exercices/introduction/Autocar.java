@@ -17,4 +17,15 @@ public class Autocar {
 		}
 		return indice;
 	}
+	
+	public static double prixEntreDeuxVilles(String depart, String arrivee,
+			double [] tabPrix, String [] tabVilles) {
+		int indiceDepart = Autocar.recupereIndiceVille(depart, tabVilles);
+		int indiceArrivee = Autocar.recupereIndiceVille(arrivee, tabVilles);
+		double prixTrajet = 0;
+		for (int i = indiceDepart; i <= indiceArrivee; i++) {
+			prixTrajet += tabPrix[i];
+		}
+		return prixTrajet;
+	}
 }
