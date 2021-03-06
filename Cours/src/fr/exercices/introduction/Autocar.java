@@ -31,7 +31,7 @@ public class Autocar {
 		int indiceDepart = Autocar.recupereIndiceVille(depart, tabVilles);
 		int indiceArrivee = Autocar.recupereIndiceVille(arrivee, tabVilles);
 		double prixTrajet = 0;
-		int reduction = 0;
+		double reduction = 0;
 		for (int i = indiceDepart; i < indiceArrivee; i++) {
 			prixTrajet = prixTrajet + tabPrix[i] - (tabPrix[i]*(reduction/100));
 			reduction += 10;
