@@ -1,4 +1,4 @@
-package fr.projet.commerce;
+package fr.exercices.classes;
 
 import java.util.ArrayList;
 import java.util.Iterator;

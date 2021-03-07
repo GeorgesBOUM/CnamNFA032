@@ -1,4 +1,4 @@
-package fr.projet.commerce;
+package fr.exercices.classes;
 
 public class Produit {
 	private String nom;

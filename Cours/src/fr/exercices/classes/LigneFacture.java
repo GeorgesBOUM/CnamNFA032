@@ -1,4 +1,4 @@
-package fr.projet.commerce;
+package fr.exercices.classes;
 
 public final class LigneFacture {
 	private Produit produit;
