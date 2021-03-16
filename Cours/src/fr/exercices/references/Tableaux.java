@@ -28,11 +28,11 @@ public class Tableaux {
 		System.out.println("référence t4 " + t4);
 		System.out.println("Le contenu de t3");
 		for (int i = 0; i < t3.length; i++) {
-			System.out.println(t3[i] + " ");
+			System.out.print(t3[i] + " ");
 		}
 		System.out.println("Le contenu de t4");
 		for (int i = 0; i < t4.length; i++) {
-			System.out.println(t4[i] + " ");
+			System.out.print(t4[i] + " ");
 		}
 	}
 
