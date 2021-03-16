@@ -27,6 +27,7 @@ public class Tableaux {
 		for (int i = 0; i < t2.length; i++) {
 			System.out.print(t2[i] + " ");
 		}
+		System.out.println();
 		
 		/**
 		 * t3 et t4 ont chacun leur propre référence et contiennent
@@ -34,15 +35,18 @@ public class Tableaux {
 		 * 10, 11, 12, 13
 		 * */
 		System.out.println("référence t3 " + t3);
-		System.out.println("référence t4 " + t4);
 		System.out.println("Le contenu de t3");
 		for (int i = 0; i < t3.length; i++) {
 			System.out.print(t3[i] + " ");
 		}
+		System.out.println();
+		
+		System.out.println("référence t4 " + t4);
 		System.out.println("Le contenu de t4");
 		for (int i = 0; i < t4.length; i++) {
 			System.out.print(t4[i] + " ");
 		}
+		System.out.println();
 	}
 
 }
