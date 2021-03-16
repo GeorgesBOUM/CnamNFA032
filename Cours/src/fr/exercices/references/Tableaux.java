@@ -18,7 +18,21 @@ public class Tableaux {
 		 * t1 pointe toujours sur null car n'ayant pas été initialisé
 		 * */
 		
-		
+		/**
+		 * t3 et t4 ont chacun leur propre référence et contiennent
+		 * 4 cases contenant respectivement
+		 * 10, 11, 12, 13
+		 * */
+		System.out.println("référence t3 " + t3);
+		System.out.println("référence t4 " + t4);
+		System.out.println("Le contenu de t3");
+		for (int i = 0; i < t3.length; i++) {
+			System.out.println(t3[i] + " ");
+		}
+		System.out.println("Le contenu de t4");
+		for (int i = 0; i < t4.length; i++) {
+			System.out.println(t4[i] + " ");
+		}
 	}
 
 }
