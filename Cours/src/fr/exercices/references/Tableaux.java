@@ -47,6 +47,37 @@ public class Tableaux {
 			System.out.print(t4[i] + " ");
 		}
 		System.out.println();
+		
+		/**
+		 * t5 est "initialisé" à t4. Cela signifie qu'ils ont la même référence,
+		 * pointent sur la même chose. Toute modification sur l'un, sera visible sur
+		 * l'autre car ayant la même référence.
+		 * */
+		System.out.println("référence t5 " + t5);
+		System.out.println("Le contenu de t5");
+		for (int i = 0; i < t5.length; i++) {
+			System.out.print(t5[i] + " ");
+		}
+		System.out.println();
+		
+		//Quelques modifications sur t4 et t5
+		t4[0] = 40;
+		t5[1] = 51;
+		
+		System.out.println("Affichage de t4 et t5 après modif");
+		System.out.println("référence t4 " + t4);
+		System.out.println("Le contenu de t5 après modif");
+		for (int i = 0; i < t4.length; i++) {
+			System.out.print(t4[i] + " ");
+		}
+		System.out.println();
+		
+		System.out.println("référence t5 " + t5);
+		System.out.println("Le contenu de t5 après modif");
+		for (int i = 0; i < t5.length; i++) {
+			System.out.print(t5[i] + " ");
+		}
+		System.out.println();
 	}
 
 }
