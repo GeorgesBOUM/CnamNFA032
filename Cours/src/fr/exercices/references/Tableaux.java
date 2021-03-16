@@ -14,6 +14,11 @@ public class Tableaux {
 		}
 		t5 = t4;
 		
+		/**
+		 * t1 pointe toujours sur null car n'ayant pas été initialisé
+		 * */
+		
+		
 	}
 
 }
