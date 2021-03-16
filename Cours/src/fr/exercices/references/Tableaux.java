@@ -20,6 +20,15 @@ public class Tableaux {
 		 * */
 		
 		/**
+		 * t2 ayant été initialisé avec new, a une référence et contient 4 cases
+		 * contenant chacune "0" (du fait de l'initialisation avec new)
+		 * */
+		System.out.println("référence t2 " + t2);
+		for (int i = 0; i < t2.length; i++) {
+			System.out.print(t2[i] + " ");
+		}
+		
+		/**
 		 * t3 et t4 ont chacun leur propre référence et contiennent
 		 * 4 cases contenant respectivement
 		 * 10, 11, 12, 13
