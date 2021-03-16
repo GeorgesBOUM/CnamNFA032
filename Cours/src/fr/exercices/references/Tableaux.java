@@ -16,6 +16,7 @@ public class Tableaux {
 		
 		/**
 		 * t1 pointe toujours sur null car n'ayant pas été initialisé
+		 * t1 est de ce fait "inutilisable" pour éviter un NullPoiterException
 		 * */
 		
 		/**
