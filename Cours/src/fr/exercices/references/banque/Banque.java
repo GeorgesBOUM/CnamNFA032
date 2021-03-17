@@ -4,11 +4,11 @@ import java.util.ArrayList;
 
 public class Banque {
 	private String nom;
-	private ArrayList<Compte> listeComptes;
+	private ArrayList<Compte> listeDesComptesDeLaBanque;
 	
 	public Banque(String nom) {
 		this.nom = nom;
-		listeComptes = new ArrayList<Compte>();
+		listeDesComptesDeLaBanque = new ArrayList<Compte>();
 	}
 	
 	public String getNom() {
@@ -16,6 +16,6 @@ public class Banque {
 	}
 	
 	public void ajouterCompte(Compte compte) {
-		listeComptes.add(compte);
+		listeDesComptesDeLaBanque.add(compte);
 	}
 }

@@ -4,11 +4,11 @@ import java.util.ArrayList;
 
 public class Titulaire {
 	private String nom;
-	private ArrayList<Compte> listeComptes;
+	private ArrayList<Compte> listeDesComptesDuTitulaire;
 	
 	public Titulaire(String nom) {
 		this.nom = nom;
-		listeComptes = new ArrayList<Compte>();
+		listeDesComptesDuTitulaire = new ArrayList<Compte>();
 	}
 	
 	public String getNom() {
@@ -16,6 +16,6 @@ public class Titulaire {
 	}
 	
 	public void ajouterCompte(Compte compte) {
-		listeComptes.add(compte);
+		listeDesComptesDuTitulaire.add(compte);
 	}
 }
