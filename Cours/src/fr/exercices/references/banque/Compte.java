@@ -2,13 +2,18 @@ package fr.exercices.references.banque;
 
 import java.util.ArrayList;
 
+/**
+ * Pour simplifier, on oblitère la notion de numéro de compte.
+ * Chaque compte sera "identifié" par son index dans la liste des
+ * comptes de la banque.
+ * */
 public class Compte {
-	private int numero;
+//	private int numero;
 	private double solde;
 	private ArrayList<Titulaire> listeDesTitulaires;
 	
-	public Compte(int numero, double solde) {
-		this.numero = numero;
+	public Compte(double solde) {
+//		this.numero = numero;
 		this.solde = solde;
 		this.listeDesTitulaires = new ArrayList<Titulaire>();
 	}
@@ -33,7 +38,7 @@ public class Compte {
 		listeDesTitulaires.add(titulaire);
 	}
 	
-	public String toString() {
-		return "Solde du compte numéro " + numero + ": " + solde;
-	}
+//	public String toString() {
+//		return "Solde du compte numéro " + numero + ": " + solde;
+//	}
 }
