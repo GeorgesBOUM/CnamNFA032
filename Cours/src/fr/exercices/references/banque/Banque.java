@@ -19,8 +19,8 @@ public class Banque {
 		listeDesComptesDeLaBanque.add(compte);
 	}
 	
-//	public void creerCompte() {
-//		Compte compte = new Compte(0);
-//		//compte.ajouterTitulaire(titulaire);
+//	public void creerCompte(ArrayList<Titulaire> listeTitulaires, double depotInitial) {
+//		Compte compte = new Compte(depotInitial);
+//		
 //	}
 }
