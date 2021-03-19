@@ -8,14 +8,14 @@ import java.util.ArrayList;
  * comptes de la banque.
  * */
 public class Compte {
-//	private int numero;
+	private int numero;
 	private double solde;
-	private ArrayList<Titulaire> listeDesTitulaires;
+	private Titulaire titulaire;
 	
-	public Compte(double solde) {
-//		this.numero = numero;
+	public Compte(int numero, Titulaire titulaire, double solde) {
+		this.numero = numero;
 		this.solde = solde;
-		this.listeDesTitulaires = new ArrayList<Titulaire>();
+		this.titulaire = titulaire;
 	}
 	
 	public double getSolde() {
@@ -38,7 +38,7 @@ public class Compte {
 		listeDesTitulaires.add(titulaire);
 	}
 	
-//	public String toString() {
-//		return "Solde du compte numéro " + numero + ": " + solde;
-//	}
+	public String toString() {
+		return "Solde du compte numéro " + numero + ": " + solde;
+	}
 }
