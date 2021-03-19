@@ -5,12 +5,16 @@ import java.util.ArrayList;
 public class Banque {
 	private String nom;
 	private ArrayList<Compte> listeDesComptesDeLaBanque;
+	private static Banque instance = new Banque("uneBanque");
 	
 	private Banque(String nom) {
 		this.nom = nom;
 		listeDesComptesDeLaBanque = new ArrayList<Compte>();
 	}
 	
+	public static Banque getInstance() {
+		return Banque.instance;
+	}
 	public String getNom() {
 		return nom;
 	}
