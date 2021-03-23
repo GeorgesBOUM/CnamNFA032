@@ -16,9 +16,10 @@ public class Application {
 		conjoints.add(fatima);
 		
 		Compte comptePaul = new Compte(1, paul, 100);
-		Compte comptePierre = new Compte(100);
-		Compte compteFatima = new Compte(100);
-		Compte comptePaulEtFatima = new Compte(50);
+		Compte comptePierre = new Compte(2, pierre, 100);
+		Compte compteFatima = new Compte(3, fatima, 100);
+		Compte comptePaulEtFatima = new Compte(4, paul, 50);
+		comptePaulEtFatima.ajouterTitulaire(fatima);
 	}
 
 }
