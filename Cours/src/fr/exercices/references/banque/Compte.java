@@ -22,6 +22,10 @@ public class Compte {
 		return solde;
 	}
 	
+	public Titulaire getTitulaire() {
+		return this.titulaire;
+	}
+	
 	public ArrayList<Titulaire> getListeDesTitulaires(){
 		return listeDesTitulaires;
 	}
