@@ -3,19 +3,19 @@ package fr.exercices.references.banque;
 import java.util.ArrayList;
 
 /**
- * Pour simplifier, on oblitère la notion de numéro de compte.
- * Chaque compte sera "identifié" par son index dans la liste des
- * comptes de la banque.
+ * Un compte sera identifié par son numéro
  * */
 public class Compte {
 	private int numero;
 	private double solde;
 	private Titulaire titulaire;
+	private ArrayList<Titulaire> listeDesTitulaires;
 	
 	public Compte(int numero, Titulaire titulaire, double solde) {
 		this.numero = numero;
 		this.solde = solde;
 		this.titulaire = titulaire;
+		listeDesTitulaires = new ArrayList<Titulaire>();
 	}
 	
 	public double getSolde() {
